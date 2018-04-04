@@ -1,0 +1,51 @@
+@charset "UTF-8";
+.content  .primary{
+	width: 50%;
+	float: right;
+	margin-right: 5px;
+	display: inline;
+}
+.content .secondary{
+	width: 48%;
+	float: left;
+	margin-left:5px;
+	display: inline;
+}
+
+#footer {
+    	height: 40px;
+    	line-height: 40px;
+    	position: fixed;
+    	bottom: 0;
+    	width: 100%;
+    	text-align: center;
+    	background: #333;
+    	color: #fff;
+    	font-family: Arial;
+    	font-size: 12px;
+    	letter-spacing: 1px;
+}
+
+#hover{
+	color:red;
+}
+
+#filelist{
+	overflow: auto;
+	width: 50%; 
+	height: 300px;
+	margin-top: 10px;
+	margin-left: 5px;
+}
+
+#lyric{
+	overflow: auto;
+	width: 42%;
+	height: 300px;
+	margin-top: 45px;
+	margin-left: 8%;
+}
+
+#bay{
+	 display: -webkit-box;
+}
